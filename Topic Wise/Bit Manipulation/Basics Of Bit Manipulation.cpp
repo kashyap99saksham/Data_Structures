@@ -6,7 +6,6 @@ using namespace std;
 int main()  {
     int n,i,j,k,m;
     cin>>n>>i>>j>>k>>m;
-    
     int setMask = (1 << i);
     int unsetMask = ~(1 << j);
     int toggleMask = (1 << k);
@@ -15,7 +14,4 @@ int main()  {
     cout<<(n & unsetMask)<<endl;
     cout<<(n ^ toggleMask)<<endl;
     cout<<((n & checkMask)==0 ? "false" :  "true" )<<endl;
-    
-    
-    
 }
