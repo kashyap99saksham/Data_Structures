@@ -1,3 +1,4 @@
+// https://www.pepcoding.com/resources/data-structures-and-algorithms-in-java-levelup/bit-manipulation/all-repeating-except-two-official/ojquestion
 #include<bits/stdc++.h>
 using namespace std;
 int main()  {
